@@ -5,7 +5,8 @@
     <classes>
       <class name="com.evs.runner.Runner">
         <methods>
-          <include name="Test"/>
+          <include name="reports"/>
+          <include name="createAccountTest"/>
         </methods>
       </class> <!-- com.evs.runner.Runner -->
     </classes>

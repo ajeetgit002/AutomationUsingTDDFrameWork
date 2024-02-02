@@ -28,7 +28,7 @@ public class CommoncodesOR {
 	private WebElement logoutBT;
 	
 	//common button
-	@FindBy(xpath = "//div[@id='basicTab']//table[@class='dvtContentSpace']/descendant-or-self::div[1]//input[@title='Save [Alt+S]']")
+	@FindBy(xpath = "//div[@id='basicTab']//table[@class='dvtContentSpace']/descendant-or-self::div[2]//input[@title='Save [Alt+S]']")
 	private WebElement clickOnSaveBT;
 
 	@FindBy(xpath = "//table[@class='small']//input[@class='crmbutton small delete']")

@@ -33,7 +33,7 @@ public class MarketingTestScripts {
 		crtmrkLeads.createNewLeadsPage("Mr.", "AjeetKumar", "Yadav", "google", "8454454454", "hsdgsg@gmail.com",
 				"Adampur", "Nigoh", "222162", "Jaunpur", "India");
 		cc.clickOnSaveBT();
-		
+		wt.tearDown_Quit();
 		wt.flushReport();
 
 	}
@@ -41,18 +41,18 @@ public class MarketingTestScripts {
 	public void vtoo2VerifyMarketingLeads() {
 	
 		cc.createTestReport("vtoo2VerifyMarketingLeads");
-		
+		cc.login();
 		cc.clickOnMarketingLK();
 		cc.clickOnLeadsSLK();
 		mrktrcod.vrifyPageHeader("Marketing > Leads");
 		crtmrkLeads.verifyMarketingLeadsAccounts("First Name", "sadhu");
-
+		wt.tearDown_Quit();
 		wt.flushReport();
 	}
 
 	public void vt004CreateNewMarketingAccount() {
 		cc.createTestReport("vt004CreateNewMarketingAccount");
-		
+		cc.login();
 		cc.clickOnMarketingLK();
 		cc.clickOnAccountsSLK();
 		mrktrcod.vrifyPageHeader("Marketing > Accounts");
