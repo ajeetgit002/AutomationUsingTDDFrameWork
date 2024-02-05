@@ -1,21 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-05T19:53:01 IST" name="Default suite" finished-at="2024-02-05T19:53:24 IST" duration-ms="23026">
+  <suite started-at="2024-02-05T20:05:25 IST" name="VtigerSuite" finished-at="2024-02-05T20:06:49 IST" duration-ms="84023">
     <groups>
     </groups>
-    <test started-at="2024-02-05T19:53:01 IST" name="Default test" finished-at="2024-02-05T19:53:24 IST" duration-ms="23026">
+    <test started-at="2024-02-05T20:05:25 IST" name="VtigerTest" finished-at="2024-02-05T20:06:49 IST" duration-ms="84023">
       <class name="com.evs.runner.Runner">
-        <test-method is-config="true" signature="reports()[pri:0, instance:com.evs.runner.Runner@f0c8a99]" started-at="2024-02-05T19:53:01 IST" name="reports" finished-at="2024-02-05T19:53:01 IST" duration-ms="442" status="PASS">
+        <test-method is-config="true" signature="reports()[pri:0, instance:com.evs.runner.Runner@f0c8a99]" started-at="2024-02-05T20:05:25 IST" name="reports" finished-at="2024-02-05T20:05:26 IST" duration-ms="554" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reports -->
-        <test-method signature="marketingVerificationtest()[pri:1, instance:com.evs.runner.Runner@f0c8a99]" started-at="2024-02-05T19:53:01 IST" name="marketingVerificationtest" finished-at="2024-02-05T19:53:24 IST" duration-ms="22520" status="PASS">
+        <test-method signature="Test()[pri:0, instance:com.evs.runner.Runner@f0c8a99]" started-at="2024-02-05T20:05:26 IST" name="Test" finished-at="2024-02-05T20:05:48 IST" duration-ms="22097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+        <test-method signature="marketingVerificationtest()[pri:1, instance:com.evs.runner.Runner@f0c8a99]" started-at="2024-02-05T20:05:48 IST" name="marketingVerificationtest" finished-at="2024-02-05T20:06:08 IST" duration-ms="19980" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- marketingVerificationtest -->
+        <test-method signature="createAccountTest()[pri:2, instance:com.evs.runner.Runner@f0c8a99]" started-at="2024-02-05T20:06:08 IST" name="createAccountTest" finished-at="2024-02-05T20:06:26 IST" duration-ms="18534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountTest -->
+        <test-method signature="salesText()[pri:3, instance:com.evs.runner.Runner@f0c8a99]" started-at="2024-02-05T20:06:26 IST" name="salesText" finished-at="2024-02-05T20:06:49 IST" duration-ms="22784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- salesText -->
       </class> <!-- com.evs.runner.Runner -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- VtigerTest -->
+  </suite> <!-- VtigerSuite -->
 </testng-results>
