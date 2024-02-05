@@ -16,7 +16,7 @@ public class MarketingTestScripts {
 
 	public MarketingTestScripts() {
 		wt = new WebUtils();
-		cc = new CommonReuseableCodes(wt, "chrome");
+		cc = new CommonReuseableCodes(wt, "firefox");
 	
 		mrktrcod = new MarkeingReuseableCodes(wt);
 		crtmrkLeads = new LeadsReuseableCodes(wt);
