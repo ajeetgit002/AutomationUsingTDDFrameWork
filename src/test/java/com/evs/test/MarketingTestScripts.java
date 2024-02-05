@@ -45,7 +45,13 @@ public class MarketingTestScripts {
 		cc.clickOnMarketingLK();
 		cc.clickOnLeadsSLK();
 		mrktrcod.vrifyPageHeader("Marketing > Leads");
-		crtmrkLeads.verifyMarketingLeadsAccounts("First Name", "sadhu");
+		crtmrkLeads.verifyMarketingLeadsAccounts("First Name", "AjeetKuamr");
+		try {
+			Thread.sleep(4000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		wt.tearDown_Quit();
 		wt.flushReport();
 	}

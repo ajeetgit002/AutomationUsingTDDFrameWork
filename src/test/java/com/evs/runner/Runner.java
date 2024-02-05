@@ -13,10 +13,10 @@ public class Runner {
 		WebUtils wt = new WebUtils();
 		wt.createExtentReport();
 	}
-	
-	@Test
+
+	@Test(priority = 0)
 	public void Test() {
-		
+
 		// Marketing scripts
 
 		MarketingTestScripts mrkts = new MarketingTestScripts();
@@ -24,19 +24,19 @@ public class Runner {
 
 	}
 
-	@Test
+	@Test(priority = 1)
 	public void marketingVerificationtest() {
 		MarketingTestScripts mrkts = new MarketingTestScripts();
 		mrkts.vtoo2VerifyMarketingLeads();
 	}
 
-	@Test 
+	@Test(priority = 2)
 	public void createAccountTest() {
 		MarketingTestScripts mrkts = new MarketingTestScripts();
 		mrkts.vt004CreateNewMarketingAccount();
 	}
 
-@Test
+	@Test(priority = 3)
 	public void salesText() {
 		SalesTestScript crnsll = new SalesTestScript();
 		crnsll.vt003CreateSalesLead();
